@@ -11,3 +11,6 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
+ npx hardhat run scripts/deployNft.ts --network goerli
+
+npx hardhat verify --network goerli  0xd166A1870900666572F986084111F463073cf2Fb
